@@ -4,7 +4,7 @@
 // @description User script to copy details from Bharat Matrimony profiles
 // @author      Prince Biswaranjan
 // @homepage    https://github.com/pbvirus/GM-CopyMatrimonyProfileData
-// @version     1.0.0
+// @version     1.0.1
 // @grant       none
 // @include     https://matches.oriyamatrimony.com/*
 // @run-at      document-end
@@ -31,9 +31,9 @@ function addButton(text, onclick, cssObj) {
 window.addEventListener('load', () => {
     let cssProp = {
         position: 'fixed', 
-        top: '6%', 
+        top: '1%', 
         right:'1%', 
-        'z-index': 10,
+        'z-index': 100,
         'background-color': 'red'
     };
     addButton('Copy Profile Details', copyProfileDetails, cssProp);
